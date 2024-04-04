@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <style>
+        /* Your CSS styles here */
+        body
+        {
+            background-color: grey;
+        }
+        .confirmation {
+            background-color: #fff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 300px;
+        }
+        p{
+            color: black;
+        }
+        h2{
+            color: black;
+            text-size-adjust: 30px;
+            justify-content: center;
+        }
+        button
+        {
+           width: 150px;
+           height: 40px;
+           border-radius: 10px;
+           background-color: green;
+           color :#fff;
+           border-color: green;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation">
+        <img src="images/logo2.png" alt="Checkmark">
+        <h2>Awesome!</h1>
+        <p> Your booking has been confirmed.</p>
+        <p>Check your email for details.</p>
+        <button onclick="closeConfirmation()">OK</button>
+    </div>
+
+    <script>
+        function closeConfirmation() {
+            // Close the confirmation message (e.g., hide it or redirect to another page)
+            // You can add more logic here if needed
+        }
+    </script>
+</body>
+</html>
